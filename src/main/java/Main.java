@@ -1,11 +1,17 @@
 class Main {
-  public String getResult(){
-    return "Hello World";
+  public int getIslandSize(String[] island ){
+    return 0;
   }
 
   public static void main(String[] args) {
     Main app = new Main();
 
-    System.out.println(app.getResult());
+    String[] island = {"..#.",
+                       "..##",
+                       "...#",
+                       "##..",
+                       "...#"};
+
+    System.out.println(app.getIslandSize(island));
   }
 }
