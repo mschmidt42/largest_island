@@ -1,7 +1,7 @@
 # Largest Island
 
 
-You are given a map consisting of n×mn \times  n*m (1 <= n, m <= 500)  square tiles. Each tile can be either a land (represented by as hash #) or an ocean (represented by a dot .). Tiles are connected by its four sides (left, right, top, bottom). Groups of connected land tiles form an island. There might be multiple islands on a map. What is the size of the largest island?
+You are given a map consisting of n*m(1 <= n, m <= 500)  square tiles. Each tile can be either a land (represented by as hash #) or an ocean (represented by a dot .). Tiles are connected by its four sides (left, right, top, bottom). Groups of connected **land tiles** form an island. There might be multiple islands on a map. What is the size of the largest island?
 
 Please write a function, that for a given map description returns the largest island on it, i.e. the largest area of connected land. Note that an island can consist of only one tile.
 
