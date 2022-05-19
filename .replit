@@ -1,0 +1,9 @@
+language = "bash"
+run = "./gradlew clean test"
+
+
+hidden = ["**/*.class", "**/.*", "build/classes", "build/generated", "build/tmp",
+  "gradle", ".gradle", "build.gradle", "gradlew", "settings.gradle", "gradlew.bat"]
+
+[languages.java]
+pattern = "**/*.java"
