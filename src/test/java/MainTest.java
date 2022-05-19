@@ -30,7 +30,7 @@ class MainTest {
         assertEquals(classUnderTest.getIslandSize(island), 4, "getIslandSize() should return 1");
     }
 
-    @DisplayName("Test small island without water, expect 0")
+    @DisplayName("Test small island without land, expect 0")
     @Test void testIslandWithoutLand() {
         Main classUnderTest = new Main();
         String[] island =  {"..",
